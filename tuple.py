@@ -1,0 +1,9 @@
+a=(1,2,3,4,5,6,7,8,9)
+b=list(a)
+print(type(b))
+b[0]=22 
+print(b)
+c=tuple(b)
+print(type(c))
+c=a
+print(a)
